@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cube-Timer</title>
+    <link rel="stylesheet" href="./assets/files/styles.css">
 </head>
 <body>
-    
+    <div id="root">
+        <div id="navbar">
+            <button>Timer</button>
+            &nbsp;---&nbsp;
+            <button>Stats</button>
+        </div>
+        <div id="timer">
+            <div id="timer-options">
+                <p></p>
+                <select id="cube"></select>
+                <select id="mode"></select>
+            </div>
+            <div id="timer-container">
+                <h3 id="SCRAMBLE">L2 U2 B' D2 B R2 U2 L2 R2 F U2 F2 D R B' F L' U' L U2 R2</h3>
+                <h1 id="TIME">0.000</h1>
+            </div>
+        </div>
+        <div id="stats">
+            <div class="stats" id="stats-1">  
+            </div>
+            <div class="stats" id="stats-2">
+
+            </div>
+            <div class="stats" id="stats-3">
+
+            </div>
+            <div class="stats" id="stats-4">
+
+            </div>
+        </div>
+    </div>
+    <script src="./assets/files/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Geo:ital@0;1&display=swap');
+
+:root {
+    background-color: #17171d;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    height: 2vh;
+}
+
+#timer-options {
+    align-items: space-between;
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 3vh;
+}
+
+#timer-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #252429;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    height: 50vh;
+}
+
+#SCRAMBLE {
+    font-family: "Geo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#TIME {
+    font-family: "Audiowide", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+}
+
+.stats {
+    color: white;
+    width: 22vw;
+    box-shadow: 0 0 10px rgba(256, 256, 256, 1);
+    border-radius: 10px;
+}
+
+.stats td, .stats th {
+    height: 10px;
+}
+
+.stats a {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 25vh;
+}
